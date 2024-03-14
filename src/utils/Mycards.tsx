@@ -3,10 +3,9 @@ import DatasetOutlinedIcon from '@mui/icons-material/DatasetOutlined';
 
 const Mycards = () => {
   return (
-    <div className="pt-[10px] pl-[1rem] pr-[3rem] flex flex-col gap-2 ">
-      <h1 className="text-[15px] font-semibold">My Cards</h1>
-      <div className="bg-yellow-400 w-[20rem] h-auto p-2 rounded-xl">
-        <div className="flex flex-col gap-5">
+    <div className="flex flex-col gap-2 w-full h-full ">
+      <h1 className="text-[15px]">My Cards</h1>
+        <div className="flex flex-col gap-5 bg-yellow-400 rounded-lg p-3">
           <div className="flex flex-row items-center justify-between">
             <div>
               <p className="text-[12px] font-medium">Balance</p>
@@ -29,7 +28,6 @@ const Mycards = () => {
             <p>circle</p>
           </div>
         </div>
-      </div>
     </div>
   );
 };

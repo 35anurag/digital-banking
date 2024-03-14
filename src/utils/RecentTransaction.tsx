@@ -8,7 +8,7 @@ const RecentTransaction = () => {
         <p>hello</p>
         <p>hello2</p>
         <p>hello</p>
-        <p>hello2</p>
+        <p>hello4</p>
       </div>
     </div>
   );
